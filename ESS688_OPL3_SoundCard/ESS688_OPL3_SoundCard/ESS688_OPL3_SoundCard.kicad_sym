@@ -9,6 +9,16 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
+			(at 17.272 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ES688"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18,17 +28,7 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_QFP:PQFP-100_14x20mm_P0.65mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39,7 +39,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "file://C:\\Users\\bernd\\Documents\\Develop\\myESS688\\docs\\688.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61,9 +61,131 @@
 				)
 			)
 		)
+		(symbol "ES688_0_1"
+			(rectangle
+				(start -24.13 52.07)
+				(end 26.67 -52.07)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15.24 52.07) (xy -15.24 -52.07)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15.24 45.72) (xy 15.24 45.72)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15.24 -45.72) (xy 15.24 -45.72)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 52.07) (xy 15.24 -52.07)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 30.48) (xy 26.67 30.48)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -2.54) (xy 15.24 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -2.54) (xy 26.67 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -22.86) (xy 26.67 -22.86)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -38.1) (xy 26.67 -38.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "ES688_1_1"
 			(pin input line
-				(at -66.04 31.75 0)
+				(at -26.67 36.83 0)
 				(length 2.54)
 				(name "A5"
 					(effects
@@ -81,7 +203,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 29.21 0)
+				(at -26.67 34.29 0)
 				(length 2.54)
 				(name "A6"
 					(effects
@@ -99,7 +221,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 46.99 0)
+				(at 2.54 54.61 270)
 				(length 2.54)
 				(name "VDDD"
 					(effects
@@ -117,7 +239,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 46.99 0)
+				(at -12.7 -54.61 90)
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -135,7 +257,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 26.67 0)
+				(at -26.67 31.75 0)
 				(length 2.54)
 				(name "A7"
 					(effects
@@ -153,7 +275,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 24.13 0)
+				(at -26.67 29.21 0)
 				(length 2.54)
 				(name "A8"
 					(effects
@@ -171,7 +293,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 21.59 0)
+				(at -26.67 26.67 0)
 				(length 2.54)
 				(name "A9"
 					(effects
@@ -189,7 +311,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 19.05 0)
+				(at -26.67 24.13 0)
 				(length 2.54)
 				(name "AEN"
 					(effects
@@ -207,7 +329,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 16.51 0)
+				(at -26.67 21.59 0)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -225,7 +347,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 13.97 0)
+				(at -26.67 19.05 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -243,7 +365,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 11.43 0)
+				(at -26.67 16.51 0)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -261,7 +383,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 8.89 0)
+				(at -26.67 13.97 0)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -279,7 +401,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 6.35 0)
+				(at -26.67 11.43 0)
 				(length 2.54)
 				(name "D4"
 					(effects
@@ -297,7 +419,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 3.81 0)
+				(at -26.67 8.89 0)
 				(length 2.54)
 				(name "D5"
 					(effects
@@ -315,7 +437,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 1.27 0)
+				(at -26.67 6.35 0)
 				(length 2.54)
 				(name "D6"
 					(effects
@@ -333,7 +455,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 -1.27 0)
+				(at -26.67 3.81 0)
 				(length 2.54)
 				(name "D7"
 					(effects
@@ -351,7 +473,7 @@
 				)
 			)
 			(pin output line
-				(at -13.97 -12.7 0)
+				(at 29.21 -26.67 180)
 				(length 2.54)
 				(name "FMENB245"
 					(effects
@@ -369,7 +491,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 44.45 0)
+				(at -10.16 -54.61 90)
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -387,7 +509,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 44.45 0)
+				(at 0 54.61 270)
 				(length 2.54)
 				(name "VDDD"
 					(effects
@@ -405,7 +527,7 @@
 				)
 			)
 			(pin output line
-				(at -66.04 -3.81 0)
+				(at -26.67 1.27 0)
 				(length 2.54)
 				(name "ENB245"
 					(effects
@@ -423,7 +545,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 15.24 0)
+				(at -26.67 -36.83 0)
 				(length 2.54)
 				(name "IS0"
 					(effects
@@ -441,7 +563,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 12.7 0)
+				(at -26.67 -39.37 0)
 				(length 2.54)
 				(name "IS1"
 					(effects
@@ -459,7 +581,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 10.16 0)
+				(at -26.67 -41.91 0)
 				(length 2.54)
 				(name "AS0"
 					(effects
@@ -477,7 +599,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 7.62 0)
+				(at -26.67 -44.45 0)
 				(length 2.54)
 				(name "AS1"
 					(effects
@@ -495,7 +617,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 5.08 0)
+				(at -26.67 -46.99 0)
 				(length 2.54)
 				(name "DS0"
 					(effects
@@ -513,7 +635,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 2.54 0)
+				(at -26.67 -49.53 0)
 				(length 2.54)
 				(name "DS1"
 					(effects
@@ -531,7 +653,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 41.91 0)
+				(at -2.54 54.61 270)
 				(length 2.54)
 				(name "VDDD"
 					(effects
@@ -549,7 +671,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 41.91 0)
+				(at -7.62 -54.61 90)
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -567,7 +689,7 @@
 				)
 			)
 			(pin output line
-				(at -44.45 -2.54 0)
+				(at 29.21 41.91 180)
 				(length 2.54)
 				(name "FOUT_L"
 					(effects
@@ -585,7 +707,7 @@
 				)
 			)
 			(pin output line
-				(at -44.45 -5.08 0)
+				(at 29.21 39.37 180)
 				(length 2.54)
 				(name "FOUT_R"
 					(effects
@@ -603,7 +725,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -7.62 0)
+				(at 29.21 26.67 180)
 				(length 2.54)
 				(name "MUSIC_L"
 					(effects
@@ -621,7 +743,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -10.16 0)
+				(at 29.21 24.13 180)
 				(length 2.54)
 				(name "MUSIC_R"
 					(effects
@@ -639,7 +761,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -12.7 0)
+				(at 29.21 21.59 180)
 				(length 2.54)
 				(name "AUX_L"
 					(effects
@@ -657,7 +779,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -15.24 0)
+				(at 29.21 19.05 180)
 				(length 2.54)
 				(name "AUX_R"
 					(effects
@@ -675,7 +797,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -17.78 0)
+				(at 29.21 16.51 180)
 				(length 2.54)
 				(name "MIC"
 					(effects
@@ -693,7 +815,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 25.4 0)
+				(at 12.7 -54.61 90)
 				(length 2.54)
 				(name "GNDA"
 					(effects
@@ -711,7 +833,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 17.78 0)
+				(at 29.21 44.45 180)
 				(length 2.54)
 				(name "REFSEL"
 					(effects
@@ -729,7 +851,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 25.4 0)
+				(at 10.16 54.61 270)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -747,7 +869,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -22.86 0)
+				(at 29.21 36.83 180)
 				(length 2.54)
 				(name "CIN_L"
 					(effects
@@ -765,7 +887,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -25.4 0)
+				(at 29.21 34.29 180)
 				(length 2.54)
 				(name "CIN_R"
 					(effects
@@ -783,7 +905,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -2.54 0)
+				(at 29.21 49.53 180)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -801,7 +923,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -5.08 0)
+				(at 29.21 46.99 180)
 				(length 2.54)
 				(name "CMR"
 					(effects
@@ -819,7 +941,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -27.94 0)
+				(at 29.21 13.97 180)
 				(length 2.54)
 				(name "LINE_L"
 					(effects
@@ -837,7 +959,7 @@
 				)
 			)
 			(pin input line
-				(at -44.45 -30.48 0)
+				(at 29.21 11.43 180)
 				(length 2.54)
 				(name "LINE_R"
 					(effects
@@ -855,7 +977,7 @@
 				)
 			)
 			(pin output line
-				(at -44.45 -33.02 0)
+				(at 29.21 6.35 180)
 				(length 2.54)
 				(name "AOUT_L"
 					(effects
@@ -873,7 +995,7 @@
 				)
 			)
 			(pin output line
-				(at -44.45 -35.56 0)
+				(at 29.21 3.81 180)
 				(length 2.54)
 				(name "AOUT_R"
 					(effects
@@ -891,7 +1013,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 27.94 0)
+				(at 12.7 54.61 270)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -909,7 +1031,7 @@
 				)
 			)
 			(pin output line
-				(at -44.45 -38.1 0)
+				(at 29.21 1.27 180)
 				(length 2.54)
 				(name "MOUT"
 					(effects
@@ -927,7 +1049,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 27.94 0)
+				(at 10.16 -54.61 90)
 				(length 2.54)
 				(name "GNDA"
 					(effects
@@ -945,7 +1067,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 39.37 0)
+				(at -5.08 54.61 270)
 				(length 2.54)
 				(name "VDDD"
 					(effects
@@ -963,7 +1085,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 39.37 0)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -981,7 +1103,7 @@
 				)
 			)
 			(pin output line
-				(at -16.51 17.78 0)
+				(at 29.21 -6.35 180)
 				(length 2.54)
 				(name "JOYRDB"
 					(effects
@@ -999,7 +1121,7 @@
 				)
 			)
 			(pin output line
-				(at -16.51 15.24 0)
+				(at 29.21 -8.89 180)
 				(length 2.54)
 				(name "JOYWRB"
 					(effects
@@ -1017,7 +1139,7 @@
 				)
 			)
 			(pin input line
-				(at -16.51 12.7 0)
+				(at 29.21 -11.43 180)
 				(length 2.54)
 				(name "GPI0"
 					(effects
@@ -1035,7 +1157,7 @@
 				)
 			)
 			(pin input line
-				(at -16.51 10.16 0)
+				(at 29.21 -13.97 180)
 				(length 2.54)
 				(name "GPI1"
 					(effects
@@ -1053,7 +1175,7 @@
 				)
 			)
 			(pin output line
-				(at -16.51 7.62 0)
+				(at 29.21 -16.51 180)
 				(length 2.54)
 				(name "GPO0"
 					(effects
@@ -1071,7 +1193,7 @@
 				)
 			)
 			(pin output line
-				(at -16.51 5.08 0)
+				(at 29.21 -19.05 180)
 				(length 2.54)
 				(name "GPO1"
 					(effects
@@ -1089,7 +1211,7 @@
 				)
 			)
 			(pin output line
-				(at -66.04 -19.05 0)
+				(at -26.67 -13.97 0)
 				(length 2.54)
 				(name "DRQC"
 					(effects
@@ -1107,7 +1229,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 36.83 0)
+				(at -7.62 54.61 270)
 				(length 2.54)
 				(name "VDDD"
 					(effects
@@ -1125,7 +1247,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 36.83 0)
+				(at -2.54 -54.61 90)
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -1143,7 +1265,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 -11.43 0)
+				(at -26.67 -6.35 0)
 				(length 2.54)
 				(name "DACKBC"
 					(effects
@@ -1161,7 +1283,7 @@
 				)
 			)
 			(pin output line
-				(at -66.04 -16.51 0)
+				(at -26.67 -11.43 0)
 				(length 2.54)
 				(name "DRQB"
 					(effects
@@ -1179,7 +1301,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 -8.89 0)
+				(at -26.67 -3.81 0)
 				(length 2.54)
 				(name "DACKBB"
 					(effects
@@ -1197,7 +1319,7 @@
 				)
 			)
 			(pin output line
-				(at -66.04 -13.97 0)
+				(at -26.67 -8.89 0)
 				(length 2.54)
 				(name "DRQA"
 					(effects
@@ -1215,7 +1337,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 -6.35 0)
+				(at -26.67 -1.27 0)
 				(length 2.54)
 				(name "DACKBA"
 					(effects
@@ -1233,7 +1355,7 @@
 				)
 			)
 			(pin output line
-				(at -66.04 -29.21 0)
+				(at -26.67 -24.13 0)
 				(length 2.54)
 				(name "IRQD"
 					(effects
@@ -1251,7 +1373,7 @@
 				)
 			)
 			(pin output line
-				(at -66.04 -26.67 0)
+				(at -26.67 -21.59 0)
 				(length 2.54)
 				(name "IRQC"
 					(effects
@@ -1269,7 +1391,7 @@
 				)
 			)
 			(pin output line
-				(at -66.04 -24.13 0)
+				(at -26.67 -19.05 0)
 				(length 2.54)
 				(name "IRQB"
 					(effects
@@ -1287,7 +1409,7 @@
 				)
 			)
 			(pin output line
-				(at -66.04 -21.59 0)
+				(at -26.67 -16.51 0)
 				(length 2.54)
 				(name "IRQA"
 					(effects
@@ -1305,7 +1427,7 @@
 				)
 			)
 			(pin output line
-				(at -13.97 -15.24 0)
+				(at 29.21 -29.21 180)
 				(length 2.54)
 				(name "FMCSB"
 					(effects
@@ -1323,7 +1445,7 @@
 				)
 			)
 			(pin output line
-				(at -13.97 -17.78 0)
+				(at 29.21 -31.75 180)
 				(length 2.54)
 				(name "FMCLK"
 					(effects
@@ -1341,7 +1463,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 -31.75 0)
+				(at -26.67 -26.67 0)
 				(length 2.54)
 				(name "IORB"
 					(effects
@@ -1359,7 +1481,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 -34.29 0)
+				(at -26.67 -29.21 0)
 				(length 2.54)
 				(name "IOWB"
 					(effects
@@ -1377,7 +1499,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 34.29 0)
+				(at -10.16 54.61 270)
 				(length 2.54)
 				(name "VDDD"
 					(effects
@@ -1395,7 +1517,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 34.29 0)
+				(at 0 -54.61 90)
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -1413,7 +1535,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 31.75 0)
+				(at 2.54 -54.61 90)
 				(length 2.54)
 				(name "GNDD"
 					(effects
@@ -1431,7 +1553,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 31.75 0)
+				(at -12.7 54.61 270)
 				(length 2.54)
 				(name "VDDD"
 					(effects
@@ -1449,7 +1571,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -25.4 0)
+				(at 29.21 -41.91 180)
 				(length 2.54)
 				(name "XO"
 					(effects
@@ -1467,7 +1589,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -27.94 0)
+				(at 29.21 -44.45 180)
 				(length 2.54)
 				(name "Xi"
 					(effects
@@ -1485,7 +1607,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -30.48 0)
+				(at 29.21 -46.99 180)
 				(length 2.54)
 				(name "EXTCLK"
 					(effects
@@ -1503,7 +1625,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -33.02 0)
+				(at 29.21 -49.53 180)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -1521,7 +1643,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 -36.83 0)
+				(at -26.67 -31.75 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -1539,7 +1661,7 @@
 				)
 			)
 			(pin output line
-				(at -13.97 -20.32 0)
+				(at 29.21 -34.29 180)
 				(length 2.54)
 				(name "FMRSTB"
 					(effects
@@ -1557,7 +1679,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 44.45 0)
+				(at -26.67 49.53 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -1575,7 +1697,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 41.91 0)
+				(at -26.67 46.99 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -1593,7 +1715,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 39.37 0)
+				(at -26.67 44.45 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -1611,7 +1733,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 36.83 0)
+				(at -26.67 41.91 0)
 				(length 2.54)
 				(name "A3"
 					(effects
@@ -1629,7 +1751,7 @@
 				)
 			)
 			(pin input line
-				(at -66.04 34.29 0)
+				(at -26.67 39.37 0)
 				(length 2.54)
 				(name "A4"
 					(effects
