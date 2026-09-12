@@ -313,7 +313,7 @@
 			(pin input line
 				(at -26.67 24.13 0)
 				(length 2.54)
-				(name "AEN"
+				(name "~{AEN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -475,7 +475,7 @@
 			(pin output line
 				(at 29.21 -26.67 180)
 				(length 2.54)
-				(name "FMENB245"
+				(name "~{FMENB245}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -529,7 +529,7 @@
 			(pin output line
 				(at -26.67 1.27 0)
 				(length 2.54)
-				(name "ENB245"
+				(name "~{ENB245}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1105,7 +1105,7 @@
 			(pin output line
 				(at 29.21 -6.35 180)
 				(length 2.54)
-				(name "JOYRDB"
+				(name "~{JOYRDB}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1123,7 +1123,7 @@
 			(pin output line
 				(at 29.21 -8.89 180)
 				(length 2.54)
-				(name "JOYWRB"
+				(name "~{JOYWRB}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1267,7 +1267,7 @@
 			(pin input line
 				(at -26.67 -6.35 0)
 				(length 2.54)
-				(name "DACKBC"
+				(name "~{DACKBC}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1303,7 +1303,7 @@
 			(pin input line
 				(at -26.67 -3.81 0)
 				(length 2.54)
-				(name "DACKBB"
+				(name "~{DACKBB}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1339,7 +1339,7 @@
 			(pin input line
 				(at -26.67 -1.27 0)
 				(length 2.54)
-				(name "DACKBA"
+				(name "~{DACKBA}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1429,7 +1429,7 @@
 			(pin output line
 				(at 29.21 -29.21 180)
 				(length 2.54)
-				(name "FMCSB"
+				(name "~{FMCSB}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1465,7 +1465,7 @@
 			(pin input line
 				(at -26.67 -26.67 0)
 				(length 2.54)
-				(name "IORB"
+				(name "~{IORB}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1483,7 +1483,7 @@
 			(pin input line
 				(at -26.67 -29.21 0)
 				(length 2.54)
-				(name "IOWB"
+				(name "~{IOWB}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1663,7 +1663,7 @@
 			(pin output line
 				(at 29.21 -34.29 180)
 				(length 2.54)
-				(name "FMRSTB"
+				(name "~{FMRSTB}"
 					(effects
 						(font
 							(size 1.27 1.27)
