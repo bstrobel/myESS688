@@ -390,7 +390,26 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "DB": [
+        "D[0..7]"
+      ],
+      "ISACTRL": [
+        "IRQ2",
+        "IRQ5",
+        "IRQ7",
+        "IRQ10",
+        "DRQ0",
+        "DRQ1",
+        "DRQ3",
+        "DACK0",
+        "DACK1",
+        "DACK3",
+        "IOR",
+        "IOW",
+        "RESET"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -431,7 +450,7 @@
         "uuid": "c893124c-63d6-430f-9102-8c1d8f3368b1"
       }
     ],
-    "used_designators": "J1,U1-8",
+    "used_designators": "J1,U1-8,#PWR1-7,C1,SW1,JP1-2",
     "variants": []
   },
   "sheets": [
